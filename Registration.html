@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Adex Legends</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./Regis.css">
+</head>
+<body>
+    <section class="registration">
+        <div class="back-button">
+            <a href="main.html">
+                <img src="./Pictures/BackButton.svg" alt="">
+                <h1>BACK</h1>
+            </a>
+            <img class="logo" src="./Pictures/AdexLogo.svg" alt="">
+        </div>
+
+        <div class="small-button">
+            <a href="">
+                <img src="./Pictures/BackButton.svg" alt="">
+            </a>
+        </div>
+
+        <div class="regis-box">
+            <h1>REGISTER</h1>
+            <form id="form" action="" class="form-section">
+                <div class="information">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="full-name" placeholder="In-game Username">
+                    <div class="error"></div>
+                </div>
+
+                <div class="information">
+                    <label for="mail">E-mail</label>
+                    <input type="email" id="mail" name="e-mail" placeholder="Email Adress">
+                    <div class="error"></div>
+                </div>
+
+                <div class="information">
+                    <label for="birthdate">Birthdate</label>
+                    <div class="birth-form">
+                        <input type="text" id="mm" name="month" placeholder="MM">
+                        <input type="text" id="dd" name="day" placeholder="DD">
+                        <input type="text" id="yyyy" name="year" placeholder="YYYY">
+                    </div>
+                </div>
+
+                <div class="information">
+                    <label for="password">Password</label>
+                    <input type="password" id="pass" name="pass" placeholder="Create Password">
+                    <div class="error"></div>
+                </div>
+
+                <div class="information">
+                    <label for="confirm-pass">Confirm Password</label>
+                    <input type="password" id="confirm-pass" name="confirm-pass" placeholder="Confirm Password">
+                    <div class="error"></div>
+                </div>
+
+                <div class="regist">
+                    <label>
+                    <input class="buang"type="submit">
+                        <img src="./Pictures/RegistButton.svg" alt="">
+                    </label>
+                    <div class="login">
+                        <p>Already have an Account?</p>
+                        <a href="./Login.html">Login</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="regist.js"></script>
+</body>
+</html>

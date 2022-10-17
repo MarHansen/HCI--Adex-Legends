@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Adex Legends</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./Regis.css">
+</head>
+<body>
+    <section class="registration">
+        <div class="back-button">
+            <a href="main.html">
+                <img src="./Pictures/BackButton.svg" alt="">
+                <h1>BACK</h1>
+            </a>
+            <img class="logo" src="./Pictures/AdexLogo.svg" alt="">
+        </div>
+
+        <div class="small-button">
+            <a href="">
+                <img src="./Pictures/BackButton.svg" alt="">
+            </a>
+        </div>
+
+        <div class="regis-box">
+            <h1>LOGIN</h1>
+            <form id="loginform" action="" class="form-section">
+                <div class="information">
+                    <label for="name">Username</label>
+                    <input type="text" id="name" name="full-name" placeholder="In-game Username">
+                    <div class="error"></div>
+
+                </div>
+
+                <div class="information">
+                    <label for="pass">Password</label>
+                    <input type="password" id="pass" name="pass" placeholder="Type Password">
+                    <div class="error"></div>
+
+                </div>
+                <div class="regist">
+                    <label>
+                    <input class="buang" type="submit">
+                        <img src="./Pictures/loginButton.svg" alt="">
+                </label>
+                    <div class="login">
+                        <p>Haven't Have Account?</p>
+                        <a href="Registration.html">Register Now</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="login.js"></script>
+</body>
+</html>
